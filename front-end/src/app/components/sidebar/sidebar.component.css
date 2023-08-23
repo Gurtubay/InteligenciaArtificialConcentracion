@@ -1,0 +1,113 @@
+:host { 
+  display: contents; 
+}
+.sidebar-sidebar {
+  width: 300px;
+  height: var(--dl-size-size-maxwidth);
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  position: relative;
+  align-self: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #f0f0f0;
+}
+.sidebar-text {
+  font-size: 16px;
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.sidebar-nav-item {
+  width: 160px;
+  display: flex;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.sidebar-container {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 32px;
+  display: flex;
+  align-items: flex-start;
+}
+.sidebar-icon {
+  width: 24px;
+  height: 24px;
+}
+.sidebar-text03 {
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+}
+.sidebar-options {
+  display: flex;
+  margin-left: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.sidebar-text04 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.sidebar-text05 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.sidebar-text06 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.sidebar-text07 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.sidebar-nav-item1 {
+  display: flex;
+  margin-bottom: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.sidebar-container1 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: var(--dl-size-size-small);
+  display: flex;
+  align-items: flex-start;
+}
+.sidebar-icon2 {
+  width: 24px;
+  height: 24px;
+}
+.sidebar-text08 {
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+}
+.sidebar-options1 {
+  display: flex;
+  margin-left: var(--dl-space-space-unit);
+  flex-direction: column;
+}
+.sidebar-text09 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.sidebar-text10 {
+  margin-bottom: var(--dl-space-space-unit);
+}
+.sidebar-container2 {
+  flex: 0 0 auto;
+  left: 0px;
+  right: 0px;
+  width: var(--dl-size-size-large);
+  bottom: 0px;
+  height: var(--dl-size-size-small);
+  margin: auto;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+}
+.sidebar-icon4 {
+  width: 24px;
+  height: 24px;
+}
+.sidebar-text12 {
+  font-size: 16px;
+  margin-bottom: 0px;
+}
+.sidebar-root-class-name {
+  height: 900px;
+}
