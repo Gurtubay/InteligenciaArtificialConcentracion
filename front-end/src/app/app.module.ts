@@ -7,6 +7,13 @@ import { AppComponent } from './app.component'
 
 const routes = [
   {
+    path: '**',
+    loadChildren: () =>
+      import('./pages/not-found/not-found.module').then(
+        (m) => m.NotFoundModule
+      ),
+  },
+  {
     path: 'cart',
     loadChildren: () =>
       import('./pages/cart/cart.module').then((m) => m.CartModule),

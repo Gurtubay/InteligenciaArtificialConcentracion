@@ -48,9 +48,3 @@
   margin-right: var(--dl-space-space-unit);
   border-radius: 100000px;
 }
-.header2-root-class-name {
-  top: 0px;
-  flex: 1;
-  left: 0px;
-  position: absolute;
-}

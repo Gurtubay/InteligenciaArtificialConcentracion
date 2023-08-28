@@ -97,7 +97,14 @@
   width: var(--dl-size-size-xsmall);
   height: var(--dl-size-size-xsmall);
 }
-
+.header-root-class-name {
+  min-width: 100%;
+}
+.header-root-class-name1 {
+  height: var(--dl-size-size-small);
+  max-width: 100%;
+  min-width: 100%;
+}
 @media(max-width: 767px) {
   .header-header {
     padding-left: var(--dl-space-space-twounits);

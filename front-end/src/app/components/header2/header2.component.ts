@@ -11,7 +11,7 @@ export class Header2 {
   @Input()
   image_alt: string = 'image'
   @Input()
-  image_src: string = '/assets/image%20(6)-200h.png'
+  image_src: string = '/assets/Images/image%20(6)-200h.png'
   @Input()
   rootClassName: string = ''
   constructor() {}

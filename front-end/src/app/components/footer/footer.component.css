@@ -38,12 +38,16 @@
 .footer-root-class-name {
   left: 0px;
   bottom: 0px;
+  height: var(--dl-size-size-small);
   position: absolute;
+  max-width: 100%;
+  min-width: 100%;
 }
 .footer-root-class-name1 {
   left: 0px;
   bottom: 0px;
   position: absolute;
+  min-width: 100%;
 }
 @media(max-width: 767px) {
   .footer-footer {
