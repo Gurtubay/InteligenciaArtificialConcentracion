@@ -128,3 +128,8 @@
   height: 1970px;
   position: absolute;
 }
+@media(max-width: 767px) {
+  .sidebar-root-class-name1 {
+    height: 100%;
+  }
+}

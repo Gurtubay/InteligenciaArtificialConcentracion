@@ -68,6 +68,7 @@
   height: 24px;
   position: absolute;
   font-size: 20px;
+  text-decoration: none;
 }
 .home-image {
   top: 30px;
@@ -1078,13 +1079,12 @@
 }
 .home-container11 {
   top: 474px;
-  flex: 0 0 auto;
-  right: 17px;
+  left: 1070px;
+  right: 0px;
   width: 338px;
   border: 0;
   height: 602px;
   position: absolute;
-  align-items: flex-start;
   border-radius: 12px;
   background-color: #f0f0f0;
 }
@@ -1497,14 +1497,16 @@
 }
 .home-icon31 {
   top: 210px;
-  right: 84px;
+  left: 1315px;
+  right: 0px;
   width: 24px;
   height: 24px;
   position: absolute;
 }
 .home-icon33 {
   top: 345px;
-  right: 84px;
+  left: 1315px;
+  right: 0px;
   width: 24px;
   height: 24px;
   position: absolute;

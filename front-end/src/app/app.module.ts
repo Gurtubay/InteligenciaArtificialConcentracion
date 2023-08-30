@@ -7,22 +7,15 @@ import { AppComponent } from './app.component'
 
 const routes = [
   {
-    path: '**',
-    loadChildren: () =>
-      import('./pages/not-found/not-found.module').then(
-        (m) => m.NotFoundModule
-      ),
-  },
-  {
     path: 'cart',
     loadChildren: () =>
       import('./pages/cart/cart.module').then((m) => m.CartModule),
   },
   {
-    path: 'product-details',
+    path: 'notifications',
     loadChildren: () =>
-      import('./pages/product-details/product-details.module').then(
-        (m) => m.ProductDetailsModule
+      import('./pages/notifications/notifications.module').then(
+        (m) => m.NotificationsModule
       ),
   },
   {
@@ -41,11 +34,9 @@ const routes = [
       import('./pages/home/home.module').then((m) => m.HomeModule),
   },
   {
-    path: 'notifications',
+    path: '**',
     loadChildren: () =>
-      import('./pages/notifications/notifications.module').then(
-        (m) => m.NotificationsModule
-      ),
+      import('./pages/error/error.module').then((m) => m.ErrorModule),
   },
 ]
 

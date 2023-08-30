@@ -112,7 +112,7 @@
   align-items: center;
   flex-direction: row;
 }
-.login-button {
+.login-navlink {
   color: #ffffff;
   width: 352px;
   font-size: 16px;
@@ -127,9 +127,10 @@
   border-radius: 12px;
   padding-right: var(--dl-space-space-twounits);
   padding-bottom: var(--dl-space-space-unit);
+  text-decoration: none;
   background-color: var(--dl-color-gray-black);
 }
-.login-button:hover {
+.login-navlink:hover {
   border-color: var(--dl-color-gray-black);
 }
 .login-text5 {
@@ -218,7 +219,7 @@
   .login-btn-group {
     flex-direction: column;
   }
-  .login-button {
+  .login-navlink {
     margin-top: var(--dl-space-space-unit);
     margin-left: 0px;
   }

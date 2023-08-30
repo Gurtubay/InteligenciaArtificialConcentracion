@@ -3,19 +3,19 @@ import { RouterModule } from '@angular/router'
 import { CommonModule } from '@angular/common'
 
 import { ComponentsModule } from '../../components/components.module'
-import { NotFound } from './not-found.component'
+import { Error } from './error.component'
 
 const routes = [
   {
     path: '',
-    component: NotFound,
+    component: Error,
   },
 ]
 
 @NgModule({
-  declarations: [NotFound],
+  declarations: [Error],
   imports: [CommonModule, ComponentsModule, RouterModule.forChild(routes)],
-  exports: [NotFound],
+  exports: [Error],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
 })
-export class NotFoundModule {}
+export class ErrorModule {}

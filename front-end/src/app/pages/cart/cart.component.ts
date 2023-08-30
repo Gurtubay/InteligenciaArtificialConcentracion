@@ -7,9 +7,9 @@ import { Title, Meta } from '@angular/platform-browser'
   styleUrls: ['cart.component.css'],
 })
 export class Cart {
-  rawpq49: string = ' '
-  rawofp0: string = ' '
-  raw7hk3: string = ' '
+  rawj0lg: string = ' '
+  raw14eg: string = ' '
+  rawwxih: string = ' '
   constructor(private title: Title, private meta: Meta) {
     this.title.setTitle('Cart - Regular Large Guanaco')
     this.meta.addTags([
