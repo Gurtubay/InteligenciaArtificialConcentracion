@@ -61,10 +61,10 @@
     Add Property
   </button>
   <div class="notifications-container7">
-    <button type="button" class="notifications-button1 button">
+    <button type="button" class="notifications-button1 button" onclick="selectAll()">
       Select All
     </button>
-    <button type="button" class="notifications-button2 button">
+    <button type="button" class="notifications-button2 button" onclick="unselectAll()">
       Unselect All
     </button>
   </div>
@@ -74,6 +74,22 @@
   <input type="checkbox" checked="true" class="notifications-checkbox3" />
   <input type="checkbox" checked="true" class="notifications-checkbox4" />
   <input type="checkbox" checked="true" class="notifications-checkbox5" />
+  
+  <script>
+  function selectAll() {
+    var checkboxes = document.querySelectorAll('.notifications-checkbox');
+    checkboxes.forEach(function(checkbox) {
+      checkbox.checked = true;
+    });
+  }
+  
+  function unselectAll() {
+    var checkboxes = document.querySelectorAll('.notifications-checkbox');
+    checkboxes.forEach(function(checkbox) {
+      checkbox.checked = false;
+    });
+  }
+  </script>
   <img
     alt="image"
     src="/assets/Images/image%20(6)-200h.png"

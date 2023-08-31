@@ -26,5 +26,7 @@ export class Sidebar {
   text6: string = 'Dashboard'
   @Input()
   text8: string = 'Statement'
-  constructor() {}
+  @Input()
+  button: string = '🏠Home'
+  constructor() {} 
 }
