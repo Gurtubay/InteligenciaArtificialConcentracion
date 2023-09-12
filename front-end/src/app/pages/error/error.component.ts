@@ -21,4 +21,22 @@ export class Error {
   goBack() {
     this.location.back();
   }
+
+  public obtenerHolaMundo() {
+    this.apiService.getHolaMundo().subscribe((response: any) => {
+      console.log(response);
+    });
+  }
+
+  public enviarDatos() {
+    const data = {
+      pH: 3.5,
+      sulphates: 0.8,
+      alcohol: 12.5
+    };
+
+    this.apiService.postModelo(data).subscribe((response: any) => {
+      console.log(response);
+    });
+  }
 }
