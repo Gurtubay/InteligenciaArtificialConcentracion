@@ -36,3 +36,4 @@ export class Cart {
       console.log(response);
     });
 }
+}
